@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/lian/bitcoin-ruby
+  revision: f9b817c946b3ef99c7652c318c155200aadc6489
+  branch: master
+  specs:
+    bitcoin-ruby (0.0.20)
+      eventmachine
+      ffi
+      scrypt
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.7)
+    ffi (1.15.5-x64-mingw-ucrt)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    rake (13.0.6)
+    scrypt (3.0.7)
+      ffi-compiler (>= 1.0, < 2.0)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  bitcoin-ruby!
+
+BUNDLED WITH
+   2.3.7
